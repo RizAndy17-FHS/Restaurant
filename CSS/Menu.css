@@ -1,0 +1,227 @@
+
+
+/* Menu Page CSS*/
+* {
+  margin:0;
+font-family: 'Oxygen', sans-serif;
+}
+.pageLinks {
+    padding: 0.25rem;
+    text-align: center;
+    
+}
+.pageLinks a, .to-top {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-right: 1px solid lightgray;
+    
+}
+.pageLinks a:first-child {
+    padding: 1rem 2rem 1rem .15rem;
+}
+.pageLinks a:hover, .to-top:hover {
+    text-decoration: underline;
+}
+.to-top {
+    border: none;
+    display: block;
+    width:20%;
+    margin: 1rem auto;
+    text-align: center;
+    
+}
+.to-top i{
+    color:black;
+    
+}
+
+.menu-category {
+    font-size: 2rem;
+    padding: 1rem .25rem;
+    text-align: center;
+    border-radius:30px;
+    background:#C80425;
+    color:white;
+    font-weight:;
+    margin:1rem;
+    margin-top:0.5rem;
+}
+
+.menu-container {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background:white;
+    border-radius:25px;
+    margin:1rem;
+    padding-top:1vh;
+    
+}
+.menu-item {
+    flex: 0 0 20%;
+    text-align: center;
+    background:white;
+    border-radius:20px;
+    border:solid 3px #C80425;
+    margin:0.85rem;
+    m
+    
+}
+.menu-pic {
+    overflow: hidden;
+    height: 35vh;
+    margin:0.5rem;
+}
+.menu-pic img {
+    display: block;
+    height: 100%;
+    margin: auto;
+    border-radius:15px;
+}
+.menu-item h4 {
+    font-size: 1.2rem;
+    background: #FF850A;
+    color: white;
+    padding: 1rem;
+    border-radius:20px;
+    margin:0.5rem;
+}
+.menu-item h5 {
+    font-size: 2rem;
+    font-style: italic;
+    padding:.75rem;
+    margin:0.5rem;
+    
+}
+.menu-item p {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+    margin-top:-2vh;
+    
+    
+    
+  }
+  body{
+    background:#EDF2F4;
+    
+  }
+  
+  
+  /*Special*/
+            .iconBar {
+              flex-basis:50%;
+              font-size:2rem;
+            }
+            .media i{
+              margin:.1vh;
+              color:#455E5F;
+            }
+             i{
+              margin:.1vh;
+              color:white;
+              
+              
+            }
+            .headerContact {
+              font-size:1.25rem;
+              flex-basis:50%;
+              text-align:right;
+              display:flex;
+              align-items:center;
+              justify-content:flex-end;
+              
+            }
+            .headerContact a {
+              color:white;
+              text-decoration:none;
+            }
+            nav img {
+            display:inline-block;
+              max-height:100%;
+              width:auto;
+              
+              
+              
+            }
+            nav ul {
+              list-style-type: none;
+              display:inline-block;
+              margin:0;
+            }
+            
+            nav li {
+              display: inline;
+              
+            }
+            nav li a {
+              display:inline-block;
+              color:white;
+              padding:1rem 2rem;
+              text-decoration:none;
+              border-right:1px solid rgb(255, 255, 255, .25);
+              margin:0;
+              transition: background-color .50s ease;
+              
+            }
+            nav li a:hover {
+              background-color:red;
+              text-decoration:underline;
+            }
+            
+            
+            nav {
+                background:black;
+                color:white;
+                display:flex;
+                height: 3.3rem;
+                overflow:hidden;
+                margin:0;
+                
+                
+                
+            }
+            
+            .iconBar {
+              flex-basis:50%;
+              font-size:2rem;
+              
+            }
+            .media i{
+              margin:.1vh;
+              color:#455E5F;
+              
+            }
+             i{
+              margin:.1vh;
+              color:white;
+              margin:0;
+              
+            }
+            .media i {
+              font-size:40vh;
+              margin:1vh;
+            }
+            header {
+                display:flex;
+                max-height:6vh;
+                padding:1vh;
+                background:#AC2020;
+                border-bottom:solid #FF890A;
+                
+            }
+            .container {
+                
+                min-height:75vh;
+                width:97%;
+                margin:auto;
+                padding:2vh;
+                
+            }
